@@ -37,7 +37,7 @@ Start the Development Server:
 php artisan serve
 The API server will start running at http://localhost:8000
 
-Endpoints
+**Endpoints**
 Authentication
 Register User:
 POST /register
@@ -65,8 +65,9 @@ Update Customer:
 PATCH /customers/{id}
 Delete Customer:
 DELETE /customers/{id}
-Dependencies
+
+**Dependencies**
 PHP >= 7.4
 Laravel Framework
-MySQL Database
+Sqlite Database
 Composer (for PHP package management)
